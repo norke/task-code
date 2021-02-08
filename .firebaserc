@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "personal-bcpl",
+    "personal-bcpl": "personal-bcpl"
+  }
+}
