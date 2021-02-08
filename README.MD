@@ -11,3 +11,11 @@
 ## Run the task demo
 
 Just open the file infinite_scroll.html or if you prefer check the code running at https://jsfiddle.net/miguelLopez/aLzbmvjw/
+
+## Consideration
+
+* ES6
+* AirBnB style guide
+* DOM Recycling was not considered
+
+* I tried to get the simplest way to achieve the goal, however, IntersectionObserver has a different behavior between Chrome and Firefox. This has forced me to relay on MutationObserver that cost me 7 lines and a little bit of performance.
